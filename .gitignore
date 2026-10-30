@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+.venv/
+venv/
+ENV/
+
+# Database & Storage
+*.db
+*.sqlite
+*.sqlite3
+business_monitor.db
+
+# Logs & Reports
+logs/*.log
+reports/*.html
+reports/*.csv
+!reports/.gitkeep
+
+# Environment & Credentials
+.env
+.env.local
+
+# Testing & Streamlit
+.pytest_cache/
+.coverage
+htmlcov/
+.streamlit/secrets.toml

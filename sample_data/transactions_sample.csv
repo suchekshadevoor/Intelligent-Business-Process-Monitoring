@@ -1,0 +1,3 @@
+transaction_id,transaction_timestamp,transaction_type,amount,status,payment_method,error_category,department_code
+TXN-9001,2026-10-30T10:30:00,Payment,1250.0,Success,Credit Card,None,FIT
+TXN-9002,2026-10-30T11:45:00,Payment,3400.0,Failed,Stripe Checkout,Gateway Timeout,FIT
